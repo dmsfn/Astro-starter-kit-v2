@@ -1,0 +1,9 @@
+{
+  "eslint.validate": ["javascript", "astro", "typescript"],
+  "css.customData": [".vscode/tailwind.json"],
+  "stylelint.validate": ["css", "html", "astro"],
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
